@@ -62,16 +62,46 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    height: auto;
+    width: 90.09009009%;
+    height: 550px;
     margin: auto;
   }
 
   .container .image {
     top: auto;
-    bottom: 406.5px;
+    bottom: 148.5px;
     left: 0;
     right: 0;
     width: 92.3423423423%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .text {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media(max-width: 289px) {
+  body {
+    font-size: 1.25em;
+  }
+
+  .container {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .container .image {
+    left: 0;
+    right: 0;
     height: auto;
     margin-right: auto;
     margin-left: auto;
